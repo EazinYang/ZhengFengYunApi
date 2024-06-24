@@ -1,0 +1,5 @@
+#获取词典关联的政策
+url: http://ctxt.po-o.cn/api/EweiShopQaQuestion/findMorePolicy
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

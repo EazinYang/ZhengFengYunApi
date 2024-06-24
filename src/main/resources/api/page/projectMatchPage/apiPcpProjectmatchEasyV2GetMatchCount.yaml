@@ -1,0 +1,5 @@
+#查询用户当天是否已匹配
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/easy/v2/getMatchCount
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

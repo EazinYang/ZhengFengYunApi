@@ -1,0 +1,6 @@
+current: test
+username: 15920464818
+password: 123456a
+env:
+  test:
+    "ctxt.po-o.cn": "ctxt.po-o.cn"

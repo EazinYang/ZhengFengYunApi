@@ -1,0 +1,5 @@
+#获取扶持方式uuid
+url: http://ctxt.po-o.cn/api/pcp/policylibrary/getTags
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

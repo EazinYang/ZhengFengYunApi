@@ -1,0 +1,6 @@
+#获取匹配次数
+#userId：用户id
+url: http://ctxt.po-o.cn/api/pcp/newPersonalCenter/getIntelligentPushNum
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

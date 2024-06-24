@@ -1,0 +1,6 @@
+#项目匹配记录
+#entityName：企业名称
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/easy/v2/match
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

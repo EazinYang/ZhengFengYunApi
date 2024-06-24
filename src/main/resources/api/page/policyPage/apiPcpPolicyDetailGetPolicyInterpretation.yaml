@@ -1,0 +1,7 @@
+#获取政策下的项目详情
+#id：String，政策id
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/getPolicyInterpretation
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

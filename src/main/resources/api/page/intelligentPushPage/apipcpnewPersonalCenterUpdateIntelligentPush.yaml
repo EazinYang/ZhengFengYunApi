@@ -1,0 +1,7 @@
+#立即匹配
+#userId：用户id
+url: http://ctxt.po-o.cn/api/pcp/newPersonalCenter/updateIntelligentPush
+method: POST
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

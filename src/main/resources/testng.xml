@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="政沣云UI自动化测试" verbose="1" parallel="tests" thread-count="1">
+    <test name="登录" >
+        <classes>
+            <class name="page.LoginPageTest" />
+        </classes>
+    </test>
+    <test name="注册" >
+        <classes>
+            <class name="page.RegisterPageTest" />
+        </classes>
+    </test>
+    <test name="政策文库" >
+        <classes>
+            <class name="page.PolicyPageTest" />
+        </classes>
+    </test>
+    <test name="申报管家" >
+        <classes>
+            <class name="page.ClareStewardPageTest" />
+        </classes>
+    </test>
+    <test name="智能推送" >
+        <classes>
+            <class name="page.IntelligentPushPageTest" />
+        </classes>
+    </test>
+    <test name="政策词典" >
+        <classes>
+            <class name="page.PolicyDictionaryPageTest" />
+        </classes>
+    </test>
+    <test name="项目匹配" >
+        <classes>
+            <class name="page.ProjectMatchPageTest" />
+        </classes>
+    </test>
+</suite>

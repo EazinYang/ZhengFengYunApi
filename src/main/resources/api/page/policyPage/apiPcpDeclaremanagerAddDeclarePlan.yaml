@@ -1,0 +1,9 @@
+#纳入申报计划
+#memberId：userid
+#formalId：项目id
+#type：0-申报1-取消申报
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/addDeclarePlan
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

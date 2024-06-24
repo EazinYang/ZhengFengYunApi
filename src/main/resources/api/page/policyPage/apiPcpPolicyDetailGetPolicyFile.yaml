@@ -1,0 +1,6 @@
+#获取公示公告关联的政策文件
+#announceId：公示公告id
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/getPolicyFile
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

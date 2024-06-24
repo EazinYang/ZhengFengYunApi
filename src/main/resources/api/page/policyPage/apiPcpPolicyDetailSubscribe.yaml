@@ -1,0 +1,7 @@
+#查看政策订阅状态
+#mid：Integer，userID
+#zid：Integer，政策ID
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/subscribe
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

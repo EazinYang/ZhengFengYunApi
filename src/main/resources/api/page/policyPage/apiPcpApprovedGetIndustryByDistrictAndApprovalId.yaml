@@ -1,0 +1,6 @@
+#获取获批名单的行业
+#policyId：政策id
+url: http://ctxt.po-o.cn/api/pcp/approved/getIndustryByDistrictAndApprovalId
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

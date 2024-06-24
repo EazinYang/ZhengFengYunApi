@@ -1,0 +1,5 @@
+#获取市级区域Code
+url: http://ctxt.po-o.cn/api/pcp/arealetter/getNewLetterArea
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

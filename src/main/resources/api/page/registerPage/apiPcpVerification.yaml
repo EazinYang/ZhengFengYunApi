@@ -1,0 +1,7 @@
+#获取验证码
+#phone：Interger，手机号
+#type："register"
+url: http://ctxt.po-o.cn/api/pcp/verification
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

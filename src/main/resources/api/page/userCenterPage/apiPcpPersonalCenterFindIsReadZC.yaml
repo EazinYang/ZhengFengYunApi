@@ -1,0 +1,6 @@
+#获取已读政策
+#memberId：userid
+url: http://ctxt.po-o.cn/api/pcp/PersonalCenter/findIsReadZC
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

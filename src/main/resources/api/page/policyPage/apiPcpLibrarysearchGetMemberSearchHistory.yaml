@@ -1,0 +1,6 @@
+#获取搜索历史关键字
+#memberId：userid
+url: http://ctxt.po-o.cn/api/pcp/librarysearch/getMemberSearchHistory
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

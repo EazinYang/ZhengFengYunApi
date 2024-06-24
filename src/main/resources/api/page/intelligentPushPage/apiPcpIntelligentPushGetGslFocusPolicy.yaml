@@ -1,0 +1,6 @@
+#查询关注政策
+#memberId：用户id
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/getGslFocusPolicy
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

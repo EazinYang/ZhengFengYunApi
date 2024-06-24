@@ -1,0 +1,10 @@
+#适配项目列表筛选
+#memberId：userid
+#status：申报状态，0-不限1-申报中2-已截止
+#search：关键字
+#uuid：扶持方式
+#sortType：排序方式,空-推送时间0-发文时间1-截止日期
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/getGslFocusFormal
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

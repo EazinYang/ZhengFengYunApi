@@ -1,0 +1,6 @@
+#清空历史搜索关键字
+#ids：关键词id
+url: http://ctxt.po-o.cn/api/pcp/librarysearch/deleteMemberSearchHistory
+method: post
+header:
+  Content-Type: application/json; charset=UTF-8

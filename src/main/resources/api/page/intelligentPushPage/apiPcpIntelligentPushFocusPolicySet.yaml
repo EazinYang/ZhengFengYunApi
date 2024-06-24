@@ -1,0 +1,8 @@
+#【关注政策】保存关注设置
+#id：userid
+#keyword：关键词
+#zcJibie：政策级别
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/focusPolicySet
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

@@ -1,0 +1,26 @@
+{
+  "applyStatus": 0,
+  "areas": [
+    "",
+    "",
+    ""
+  ],
+  "boundary": 0,
+  "city": "",
+  "department": "",
+  "fileType": 0,
+  "keyWord": "",
+  "orderBy": "desc",
+  "pageNo": 1,
+  "pageSize": 10,
+  "prov": "",
+  "searchTerm": ["1","2"],
+  "site": "foshan",
+  "sortType": 0,
+  "uuidList": [],
+  "memberId":"",
+  "notice":"",
+  "policy": "",
+  "publicity": "",
+  "previous": "true"
+}

@@ -1,0 +1,6 @@
+#获取用户推送设置信息
+#userId：用户id
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/getBackSysUserPushSet
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

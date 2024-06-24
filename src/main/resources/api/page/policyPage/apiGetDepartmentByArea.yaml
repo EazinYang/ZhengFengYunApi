@@ -1,0 +1,6 @@
+#政策文库-获取主管部门
+#areas：array，选择区域
+url: http://ctxt.po-o.cn/api/getDepartmentByArea
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

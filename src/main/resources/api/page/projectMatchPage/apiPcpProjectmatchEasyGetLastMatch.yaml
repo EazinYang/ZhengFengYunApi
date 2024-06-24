@@ -1,0 +1,6 @@
+#获取历史匹配的企业名
+#userId：用户id
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/easy/getLastMatch
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

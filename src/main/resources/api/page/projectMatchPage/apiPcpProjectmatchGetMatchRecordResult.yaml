@@ -1,0 +1,6 @@
+#获取匹配记录
+#recordId：匹配记录id
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/getMatchRecordResult
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

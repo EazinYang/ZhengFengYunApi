@@ -1,0 +1,6 @@
+#查询关注设置配置信息
+#id：userid
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/getFocusPolicySetting
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

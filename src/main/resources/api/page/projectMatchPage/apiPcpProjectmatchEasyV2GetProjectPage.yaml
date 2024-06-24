@@ -1,0 +1,8 @@
+#筛选项目列表
+#typeId：扶持方式
+#userId：用户id
+#orderType：排序类型
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/easy/v2/getProjectPage
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

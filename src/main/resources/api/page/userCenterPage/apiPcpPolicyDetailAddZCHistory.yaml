@@ -1,0 +1,8 @@
+#添加为已读政策
+#zid：政策id
+#memberId；userid
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/addZCHistory
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

@@ -1,0 +1,5 @@
+#获取拙政材料分类
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/getClassification
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

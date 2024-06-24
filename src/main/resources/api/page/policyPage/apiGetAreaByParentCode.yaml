@@ -1,0 +1,6 @@
+#获取子级的区域code
+#parentCode：String，父级地域
+url: http://ctxt.po-o.cn/api/getAreaByParentCode
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

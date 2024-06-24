@@ -1,0 +1,6 @@
+#查询历史申报计划
+#memberId：userid
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/getLastDeclarePlan
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

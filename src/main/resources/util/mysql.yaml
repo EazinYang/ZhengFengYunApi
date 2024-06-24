@@ -1,0 +1,6 @@
+#driver: com.mysql.jdbc.Driver
+url: jdbc:mysql://192.168.12.245:3306/zhengfeng_omsystest?useUnicode=true&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=CONVERT_TO_NULL
+username: ctxt_admin
+password: zfy@2023AA
+
+

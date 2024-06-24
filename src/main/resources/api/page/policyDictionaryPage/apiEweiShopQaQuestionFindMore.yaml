@@ -1,0 +1,7 @@
+#获取词典关联的更多词典
+#id：词典id
+#keyWord：词典名词
+url: http://ctxt.po-o.cn/api/EweiShopQaQuestion/findMore
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

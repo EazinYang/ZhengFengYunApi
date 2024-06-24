@@ -1,0 +1,26 @@
+#政策文库-政策查询接口
+#applyStatus：必填，Integer，申报状态1-申报中，2-已截止，0-不限
+#areas：Array，地域
+#boundary：政策范围0-仅限本级，1-含本级以下
+#city：必填，String，城市
+#department：必填，String，发文部门
+#fileType：必填，Integer，类型0-申报通知，1-政策文件，2-公示公告
+#keyWord"：必填，String，关键词
+#orderBy：必填，String，排序方式
+#pageNo：必填，Integer，页数
+#pageSize：必填，Integer，每页数量
+#prov":必填，String，省
+#searchTerm：必填，Array，搜索选项
+#site："foshan",站点拼音
+#sortType：必填，String，排序方式0-按发文时间，1-按截止时间
+#uuidList：必填，Array，扶持方式
+#memberId：必填，String，用户id
+#notice：必填，政策文件的数量，只有fileType修改，该值才会传一个新的
+#policy：必填，申报通知的数量，只有fileType修改，该值才会传一个新的
+#publicity：必填，公示公告的数量，只有fileType修改，该值才会传一个新的
+#previous：true
+url: http://ctxt.po-o.cn/api/queryPolicyByPC
+method: post
+param: 0
+header:
+  Content-Type: application/json; charset=UTF-8

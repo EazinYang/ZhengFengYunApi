@@ -1,0 +1,8 @@
+#编辑佐证材料
+#id：材料id
+#typeId：分类id
+#remarkName：文件名
+#effectiveDate：有效期
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/updateMaterials
+method: post
+param: 1

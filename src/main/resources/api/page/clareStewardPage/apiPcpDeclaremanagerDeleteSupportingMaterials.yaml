@@ -1,0 +1,4 @@
+#删除佐证材料
+#id：材料id
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/deleteSupportingMaterials
+method: get

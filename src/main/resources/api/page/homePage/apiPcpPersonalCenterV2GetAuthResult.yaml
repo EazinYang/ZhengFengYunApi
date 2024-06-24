@@ -1,0 +1,5 @@
+#获取登录用户信息
+url: http://ctxt.po-o.cn/api/pcp/PersonalCenter/v2/getAuthResult
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

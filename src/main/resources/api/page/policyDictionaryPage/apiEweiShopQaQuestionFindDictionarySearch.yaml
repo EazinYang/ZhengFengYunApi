@@ -1,0 +1,5 @@
+#获取政策词典热搜关键词
+url: http://ctxt.po-o.cn/api/EweiShopQaQuestion/findDictionarySearch
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

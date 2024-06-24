@@ -1,0 +1,9 @@
+#搜索政策词典
+#city：String，城市
+#conditionOne：String，关键字
+#conditionTwo：String，按字母
+#conditionThree：String，名词类型
+url: http://ctxt.po-o.cn/api/EweiShopQaQuestion/findConditions
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

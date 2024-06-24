@@ -1,0 +1,7 @@
+#上传佐证材料
+#file
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/upLoadMaterials
+method: post
+param: 0
+header:
+  Content-Type: multipart/form-data

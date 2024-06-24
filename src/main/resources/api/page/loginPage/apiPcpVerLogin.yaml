@@ -1,0 +1,7 @@
+#登录-验证码登录接口
+#phone：必填，手机号
+#code：必填，验证码
+url: http://ctxt.po-o.cn/api/pcp/verLogin
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

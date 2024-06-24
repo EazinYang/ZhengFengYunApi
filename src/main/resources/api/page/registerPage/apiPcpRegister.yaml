@@ -1,0 +1,10 @@
+#注册
+#name：String，姓名
+#phoneNumber：Integer，手机号
+#code：Integer，验证码
+#password：String，密码
+url: http://ctxt.po-o.cn/api/pcp/register
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

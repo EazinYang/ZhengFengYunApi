@@ -1,0 +1,6 @@
+#获取政策文件
+#id：Integer，政策id
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/getDeclarationNotice
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

@@ -1,0 +1,12 @@
+#保存佐证材料
+#childId：子级分类
+#effectiveDate：有效期
+#remarkName：材料名称
+#url：文件
+#fileName：文件名
+#memberId：userid
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/addSupportingMaterials
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

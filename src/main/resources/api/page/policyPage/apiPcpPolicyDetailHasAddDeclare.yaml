@@ -1,0 +1,7 @@
+#查看是否已申报项目
+#memberId：userid
+#fieldId：政策id
+url: http://ctxt.po-o.cn/api/pcp/policyDetail/hasAddDeclare
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

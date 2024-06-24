@@ -1,0 +1,11 @@
+#公示名单筛选
+#pageNum：Integer，页数
+#pageSize：Integer，每页数据
+#policyId：政策id
+#companyName：公司名称关键字
+#districtCode：地区
+#industryCode：行业
+url: http://ctxt.po-o.cn/api/pcp/approved/getApprovedListByUnitRegionIndustry
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

@@ -1,0 +1,6 @@
+#查询我的订阅
+#id：userid
+url: http://ctxt.po-o.cn/api/pcp/intelligentPush/mySubscribe
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

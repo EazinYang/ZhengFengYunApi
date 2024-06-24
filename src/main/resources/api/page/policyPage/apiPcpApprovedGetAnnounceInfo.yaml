@@ -1,0 +1,8 @@
+#获取申报通知关联的公示公告和公示名单信息
+#pageNo：Integer，页码
+#pageSize：Integer，每页显示
+#policyId：Integer，申报通知id
+url: http://ctxt.po-o.cn/api/pcp/approved/getAnnounceInfo
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

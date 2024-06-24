@@ -1,0 +1,11 @@
+#登录-账密登录接口
+#username:：必填，用户名
+#password：必填，面膜
+#keepAlive：必填，废弃字段，固定传0
+#code：必填，图片验证码
+#key：必填，验证图片的key
+url: http://ctxt.po-o.cn/api/pcp/login
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8

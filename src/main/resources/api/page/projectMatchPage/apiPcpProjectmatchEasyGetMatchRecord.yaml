@@ -1,0 +1,6 @@
+#历史记录
+#userId：用户id
+url: http://ctxt.po-o.cn/api/pcp/projectmatch/easy/getMatchRecord
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

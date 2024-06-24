@@ -1,0 +1,8 @@
+#查询佐证材料
+#memberId：userid
+#parentId：父级类型
+#childId：子级类型
+url: http://ctxt.po-o.cn/api/pcp/declaremanager/getSupportingMaterials
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

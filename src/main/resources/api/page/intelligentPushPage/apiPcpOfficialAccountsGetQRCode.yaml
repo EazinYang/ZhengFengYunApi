@@ -1,0 +1,5 @@
+#推送设置的二维码
+url: http://ctxt.po-o.cn/api/pcp/officialAccounts/getQRCode
+method: get
+header:
+  Content-Type: application/json; charset=UTF-8

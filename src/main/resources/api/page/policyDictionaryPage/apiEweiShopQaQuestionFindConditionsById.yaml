@@ -1,0 +1,7 @@
+#获取词典详情
+#id：词典id
+url: http://ctxt.po-o.cn/api/EweiShopQaQuestion/findConditionsById
+method: post
+param: 1
+header:
+  Content-Type: application/json; charset=UTF-8
