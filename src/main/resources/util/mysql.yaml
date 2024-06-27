@@ -1,6 +1,11 @@
 #driver: com.mysql.jdbc.Driver
-url: jdbc:mysql://192.168.12.245:3306/zhengfeng_omsystest?useUnicode=true&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=CONVERT_TO_NULL
-username: ctxt_admin
-password: zfy@2023AA
+#11网段
+url1: jdbc:mysql://192.168.12.245:3306/zhengfeng_omsystest?useUnicode=true&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=CONVERT_TO_NULL
+#13网段
+url2: jdbc:mysql://192.168.12.246:9032/zhengfeng_omsystest?useUnicode=true&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=CONVERT_TO_NULL
+username1: ctxt_admin
+password1: zfy@2023AA
+username2: root
+password2: infosun123456..
 
 

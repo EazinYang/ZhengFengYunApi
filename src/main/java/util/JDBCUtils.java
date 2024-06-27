@@ -13,9 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JDBCUtils{
-    public String url;
-    public String username;
-    public String password;
+    public String url1;
+    public String username1;
+    public String password1;
+    public String url2;
+    public String username2;
+    public String password2;
 
     //定义数据库连接对象
     private static Connection conn = null;
@@ -24,7 +27,7 @@ public class JDBCUtils{
         try {
             JDBCUtils jdbcUtils=objectMapper.readValue(JDBCUtils.class.getResource("/util/mysql.yaml"), JDBCUtils.class);
             //你导入的数据库驱动包， mysql。
-            conn = DriverManager.getConnection(jdbcUtils.url,jdbcUtils.username, jdbcUtils.password);
+            conn = DriverManager.getConnection(jdbcUtils.url2,jdbcUtils.username2, jdbcUtils.password2);
         }catch (Exception e) {
             e.printStackTrace();
         }
