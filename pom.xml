@@ -119,7 +119,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
                         <!-- testng配置文件名称 -->
-                        <suiteXmlfile>src/main/resources/testNg/testng.xml</suiteXmlfile>
+                        <suiteXmlfile>src/main/resources/testng.xml</suiteXmlfile>
                     </suiteXmlFiles>
                     <!-- 设置参数命令行 -->
                     <argLine>
